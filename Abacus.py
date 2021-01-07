@@ -1,10 +1,11 @@
 import tkinter as tk
  
 window = tk.Tk()
-button1 = tk.Button(text="1",width=25,
-    height=5,
-    bg="blue",
-    fg="yellow",)
+entry=tk.Entry()
+button1 = tk.Button(text="1",width=2,
+    height=1,
+    bg="lightblue",
+    fg="red",)
 button2 = tk.Button(text="2")
 button3 = tk.Button(text="3")
 button4 = tk.Button(text="4")
@@ -20,12 +21,13 @@ button13 = tk.Button(text="/")
 button14 = tk.Button(text="*")
 button15 = tk.Button(text="=")
 button16 = tk.Button(text="!!")
-button1.pack()
-button2.pack()
-button3.pack()
-button4.pack() 
-button5.pack()
-button6.pack()
+entry.pack()
+button1.pack(fill=tk.X,side=tk.TOP)
+button2.pack(fill=tk.BOTH)
+button3.pack(fill=tk.X)
+button4.pack(fill=tk.Y) 
+button5.pack(fill=tk.BOTH)
+button6.pack(fill=tk.BOTH)
 button7.pack()
 button8.pack() 
 button9.pack()
