@@ -9,7 +9,7 @@ def output3(event):
 root=Tk()
 root.title('Easy calculator')
 
-label = Label(root,text='',bg='white',height=2,width=12,fill=X)
+label = Label(root,text='',bg='white',height=2,width=12)
 
 but1=Button(root,text='1',height=2,width=3)
 but2=Button(root,text='2',height=2,width=3)
